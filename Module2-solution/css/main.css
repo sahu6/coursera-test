@@ -1,0 +1,37 @@
+#one,#two,#three{
+    width:33.33%;
+    float: left;
+    background-color: blueviolet
+}
+
+h1{
+    background-color: aquamarine
+}
+
+@media (max-width:767px)
+{
+    #one,#two,#three{
+        width:100%;
+        float: left;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    #two,#one{
+        width:49%;
+        float: left;
+    }  
+    #three{
+        width:98%;
+        float: left;
+    }
+}
+
+@media (min-width:992px)
+{
+    #one,#two,#three{
+        width:32%;
+        float: left;
+    }
+}
